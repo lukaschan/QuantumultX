@@ -1,5 +1,5 @@
 /*************************
-[Script]
+[rewrite_local]
 ^https:\/\/(api|api-cs|api-cs-cn)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/lukaschan/QuantumultX/main/camscanner.js
 
 [MITM]
