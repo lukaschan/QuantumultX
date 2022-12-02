@@ -13,7 +13,7 @@
 [rewrite_local]
 
 # ～ Fimo解鎖會員權限（2022-02-20）@ddgksf2013
-^https?:\/\/server\.yoyiapp\.com\/fimo-user\/user$ url script-response-body https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Crack/fimo.js
+^https?:\/\/server\.yoyiapp\.com\/fimo-user\/user$ url script-response-body https://github.com/lukaschan/QuantumultX/raw/main/fimo.js
 
 [mitm] 
 
