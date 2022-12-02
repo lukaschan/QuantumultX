@@ -1,3 +1,12 @@
+hostname = ap*.intsig.net,
+
+
+# 扫描全能王 pro
+^https:\/\/(api|api-cs|api-cs-cn)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/lukaschan/QuantumultX/main/camscanner.js
+
+
+
+
 let body = JSON.parse($response.body)
     body.data.psnl_vip_property = {"renew_method": "appstore",
       "initial_tm": "1614867690",
