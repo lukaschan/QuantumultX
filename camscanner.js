@@ -1,10 +1,10 @@
-*************************
+/*************************
 [Script]
 ^https:\/\/(api|api-cs|api-cs-cn)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/lukaschan/QuantumultX/main/camscanner.js
 
 [MITM]
 hostname = ap*.intsig.net
-*************************
+*************************/
 
 let body = JSON.parse($response.body)
     body.data.psnl_vip_property = {"renew_method": "appstore",
