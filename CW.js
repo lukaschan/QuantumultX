@@ -1,5 +1,10 @@
-//^https:\/\/claritywallpaper\.com\/clarity\/api\/special\/queryByCatalogAll url script-response-body clarity.js
+hostname= claritywallpaper.com
 
+
+
+
+
+^https:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll) url script-response-body https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/clarity.js
 
 var url = $request.url;
 var obj = JSON.parse($response.body);
